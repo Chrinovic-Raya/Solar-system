@@ -1,0 +1,1 @@
+Build the 3 voltage-divider circuits (A0, A1, A3) so the Arduino can safely read up to 20V. Wire the LCD and get it printing raw/calibrated voltage values for all three points. No relay logic yet — you can drive the dividers from a simple pot or fixed source to test the readings and calibration math.

@@ -1,0 +1,1 @@
+Merge everything: IR-entered value (Phase 4) becomes the regulation target (Phase 5), voltages continue to display live on the LCD (Phase 2/3), relay switching keeps optimizing losses (Phase 1), and you add the custom LCD characters for series/parallel symbols. This is your final submitted circuit.

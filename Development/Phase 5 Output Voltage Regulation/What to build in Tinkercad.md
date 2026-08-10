@@ -1,0 +1,1 @@
+Standalone: NPN transistor on pin 5, driven by feedback from the A3 reading, closed-loop control to hit a _hardcoded_ target voltage (0–4.3V range). Prove the regulation loop works before tying it to user input.

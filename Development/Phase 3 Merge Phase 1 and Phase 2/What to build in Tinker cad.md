@@ -1,0 +1,1 @@
+Combine the relay switching circuit with the voltage-sensing/LCD circuit. Now the LCD should show live voltages _while_ the relay switches series↔parallel — confirm the readings visibly change to reflect the switch (this is a key rubric item).

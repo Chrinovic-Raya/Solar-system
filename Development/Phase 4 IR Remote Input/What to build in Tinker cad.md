@@ -1,0 +1,1 @@
+Standalone circuit: IR receiver on pin 3 only, decoding button presses, temporarily displaying the two digits entered on the LCD, then reverting after 1 second. No output regulation yet — just prove input capture and LCD text behavior.
