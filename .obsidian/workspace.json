@@ -34,9 +34,75 @@
               "icon": "lucide-file",
               "title": "What to build in Tinker cad"
             }
+          },
+          {
+            "id": "21503c7b0f06204b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/Phase 1 Relay Switching/What to build in Tinkercad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What to build in Tinkercad"
+            }
+          },
+          {
+            "id": "6a25a81fb657af41",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Development/Phase 1 Relay Switching/Drawing 2026-08-15 22.45.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-15 22.45.09.excalidraw"
+            }
+          },
+          {
+            "id": "5758b260e9d0f00c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Development/Phase 1 Relay Switching/Relay explanation drawing.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Relay explanation drawing"
+            }
+          },
+          {
+            "id": "e593157a9d6fc5e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/Phase 1 Relay Switching/Phase1_Dev_Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Phase1_Dev_Notes"
+            }
+          },
+          {
+            "id": "c06e0271d6334ef2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "()"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -197,30 +263,38 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "de119b119ea1289d",
+  "active": "e593157a9d6fc5e7",
   "lastOpenFiles": [
+    "().md",
+    "Development/Phase 1 Relay Switching/Phase1_Dev_Notes.md",
+    "Development/Phase 1 Relay Switching/Relay Test.md",
+    "Development/Phase 1 Relay Switching/What to build in Tinkercad.md",
+    "Development/Phase 1 Relay Switching/Drawing 2026-08-15 22.45.09.excalidraw.md",
+    "Development/Phase 1 Relay Switching/Development.md",
+    "Development/Phase 1 Relay Switching/Paralle and series .excalidraw.md",
+    "Development/Phase 1 Relay Switching/Relay explanation drawing.md",
+    "Development/Phase 2 Voltage sensing/What to build in Tinker cad.md",
+    "Development/Phase 1 Relay Switching/Unconfirmed 861091.crdownload",
+    "Development/Phase 4 IR Remote Input/What to build in Tinker cad.md",
+    "Development/Phase 3 Merge Phase 1 and Phase 2/What to build in Tinker cad.md",
+    "Development/Phase 1 Relay Switching/Untitled.md",
+    "Development/Phase 6 Full System Integration/What to build in Tinkercad.md",
+    "Development/Phase 5 Output Voltage Regulation/What to build in Tinkercad.md",
+    "Notes/DIAGRAM OVERVIEW.md",
     "DOCS/2026 Embedded Systems 3 FISA template V002.docx",
     "MD Ver/convert-to-markdown.bat",
     "DOCS/2026 Embedded Systems 3 FISA template V002.pdf",
     "DOCS/Embedded 2026 FISA (1).pdf",
     "DOCS",
     "New folder",
-    "Development/Phase 1 Relay Switching/What to build in Tinkercad.md",
-    "Development/Phase 2 Voltage sensing/What to build in Tinker cad.md",
-    "Development/Phase 3 Merge Phase 1 and Phase 2/What to build in Tinker cad.md",
-    "Development/Phase 4 IR Remote Input/What to build in Tinker cad.md",
-    "Development/Phase 6 Full System Integration/What to build in Tinkercad.md",
-    "Development/Phase 5 Output Voltage Regulation/What to build in Tinkercad.md",
     "Development/Phase 6 Full System Integration",
     "Development/Phase 5 Output Voltage Regulation",
     "Development/Phase 4 IR Remote Input",
-    "Development/Phase 3 Merge Phase 1 and Phase 2",
-    "Development/Phase 2 Voltage sensing",
     "Notes/Prompt.md",
-    "Notes/DIAGRAM OVERVIEW.md",
     "MD Ver/Embedded 2026 FISA (1).md",
     "MD Ver/2026 Embedded Systems 3 FISA template V002.md"
   ]
