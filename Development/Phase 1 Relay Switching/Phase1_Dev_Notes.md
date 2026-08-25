@@ -22,11 +22,11 @@ verified with an LED/serial state confirmation and voltmeters across the capacit
 ---
 ## Circuits
 
-[Phase 1.1: Testing the SPDT RELAY](https://www.tinkercad.com/things/744FQzOOnGO-phase-11-relay-test)
-[Phase 1.2: Powering a SPDT Relay with a solar cell](https://www.tinkercad.com/things/jYaedfyWceZ-phase-12-relay-test-20v)
-[Phase 1.3: First attempt to achieve parallel and series switching with SPDT relay](https://www.tinkercad.com/things/e5bbCw2eOnq-phase-13-using-the-5v-spdt-relay)
-[Phase 1.4: Switching to using a DPDT relay](https://www.tinkercad.com/things/elJi1q5VKmF-phase-14-dpdt-relay-test-)
-[Phase 1.5: Succes](https://www.tinkercad.com/things/6yAYWkv6JLo-phase-15-using-the-5v-spdt-relay)
+- [Phase 1.1: Testing the SPDT RELAY](https://www.tinkercad.com/things/744FQzOOnGO-phase-11-relay-test)
+- [Phase 1.2: Powering a SPDT Relay with a solar cell](https://www.tinkercad.com/things/jYaedfyWceZ-phase-12-relay-test-20v)
+- [Phase 1.3: First attempt to achieve parallel and series switching with SPDT relay](https://www.tinkercad.com/things/e5bbCw2eOnq-phase-13-using-the-5v-spdt-relay)
+- [Phase 1.4: Switching to using a DPDT relay](https://www.tinkercad.com/things/elJi1q5VKmF-phase-14-dpdt-relay-test-)
+- [Phase 1.5: Succes](https://www.tinkercad.com/things/6yAYWkv6JLo-phase-15-using-the-5v-spdt-relay)
 ## What We Did
 
 - Started with a bare relay driven by an NPN transistor, since the coil draws more
