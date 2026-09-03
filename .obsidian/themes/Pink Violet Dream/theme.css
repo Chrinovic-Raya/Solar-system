@@ -1,0 +1,482 @@
+/*
+ * Pink Violet Dream - Obsidian Theme
+ * Author: Ailyn Melillán (@_dammit_queen)
+ * Version: 1.0.0
+ * Description: Tema optimizado para estudio universitario con estética pastel, morada y rosa.
+ */
+
+body {
+    --radius-s: 4px;
+    --radius-m: 8px;
+    --radius-l: 12px;
+    
+    --font-text: 'Times New Roman', serif;
+    --font-ui: 'Times New Roman', serif;
+    --font-interface: 'Times New Roman', serif;
+    --h1-font: 'Times New Roman', serif;
+    --h2-font: 'Times New Roman', serif;
+    --h3-font: 'Times New Roman', serif;
+    --h4-font: 'Times New Roman', serif;
+    --h5-font: 'Times New Roman', serif;
+    --h6-font: 'Times New Roman', serif;
+}
+
+/* ==========================================
+   MODO CLARO (.theme-light)
+========================================== */
+.theme-light {
+    --background-primary: #FEF3F8; 
+    --background-secondary: #FAEAEE; 
+    --background-modifier-form-field: #FAEAEE; 
+    --background-primary-alt: #FCDEEA;
+    --background-secondary-alt: #F5DDE5;
+    --background-modifier-border: #D8A7C9; 
+    
+    --icon-color: #6C2B8E;
+    --icon-color-hover: #4E186D;
+    --icon-color-active: #4E186D;
+    --nav-item-color: #6C2B8E;
+    --nav-item-color-hover: #4E186D;
+    --nav-item-color-active: #4E186D;
+    --nav-item-background-hover: rgba(108, 43, 142, 0.08);
+    --nav-item-background-active: rgba(108, 43, 142, 0.12);
+    --nav-folder-title-color: #4E186D;
+    --tab-text-color: #6C2B8E;
+    --tab-text-color-focused: #4E186D;
+    --tab-text-color-focused-active: #2F0A47;
+    --interactive-normal: rgba(108, 43, 142, 0.05);
+    --interactive-hover: rgba(108, 43, 142, 0.1);
+    --interactive-accent: #6C2B8E;
+    --interactive-accent-hover: #4E186D;
+
+    --text-normal: #3D2B4A; 
+    --text-muted: #645073;
+    --text-faint: #8B779A;
+    
+    --text-a: #6C2B8E; 
+    --text-a-hover: #4E186D; 
+    --bold-color: #4E186D; 
+    --italic-color: #6C2B8E;
+    --text-highlight-bg: rgba(108, 43, 142, 0.2); 
+    --text-accent: #6C2B8E;
+
+    --h1-color: #6a2c70; 
+    --h2-color: #793e89; 
+    --h3-color: #8751a1; 
+    --h4-color: #9663ba; 
+    --h5-color: #a476d3; 
+    --h6-color: #b388eb; 
+
+    --code-background: #FDF1F8;   
+    --code-normal: #2F1E3D;       
+    --code-string: #1B5E20;       
+    --code-keyword: #D81159;      
+    --code-function: #0D47A1;     
+    --code-comment: #4A148C;      
+    --code-operator: #800080;     
+    --code-property: #005A9C;     
+    --code-punctuation: #311B92;
+    --code-value: #900C3F;
+
+    --checkbox-border-color: #6C2B8E;       
+    --checkbox-border-color-hover: #4E186D; 
+    --checkbox-color: #6C2B8E;              
+    --checkbox-marker-color: #FFFFFF;       
+    --checklist-done-color: #8B779A;        
+    --checklist-done-decoration: line-through;
+
+    --tag-background: rgba(108, 43, 142, 0.1);    
+    --tag-color: #6C2B8E;         
+    --tag-border-color: transparent; 
+    --tag-border-width: 0px;
+    --tag-background-hover: rgba(108, 43, 142, 0.2);
+    
+    --hr-color: rgba(108, 43, 142, 0.2);
+    --list-marker-color: #4E186D;
+}
+
+.theme-light .markdown-rendered strong, .theme-light .cm-strong { color: var(--bold-color); font-weight: bold; }
+.theme-light .markdown-rendered em, .theme-light .cm-em { color: var(--italic-color); font-style: italic; }
+.theme-light .markdown-rendered mark, .theme-light .cm-formatting-highlight, .theme-light .cm-highlight { background-color: var(--text-highlight-bg); color: var(--text-normal); }
+.theme-light .markdown-rendered :not(pre) > code, .theme-light .cm-inline-code { background-color: rgba(108, 43, 142, 0.08); color: #6C2B8E; border: 1px solid rgba(108, 43, 142, 0.15); border-radius: 4px; padding: 0.1em 0.3em; }
+.theme-light .markdown-rendered pre { border: 1px solid rgba(108, 43, 142, 0.15); }
+.theme-light .cm-header-1 { color: #6a2c70; }
+.theme-light .cm-header-2 { color: #793e89; }
+.theme-light .cm-header-3 { color: #8751a1; }
+.theme-light .cm-header-4 { color: #9663ba; }
+.theme-light .cm-header-5 { color: #a476d3; }
+.theme-light .cm-header-6 { color: #b388eb; }
+.theme-light .markdown-rendered hr { border-color: var(--hr-color); border-width: 2px; }
+
+.theme-light .markdown-rendered table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    background-color: #FFFFFF; 
+    border: 1px solid rgba(108, 43, 142, 0.3);
+}
+.theme-light .markdown-rendered th {
+    background-color: rgba(108, 43, 142, 0.12);
+    color: #2F0A47;
+    font-weight: bold;
+    border: 1px solid rgba(108, 43, 142, 0.3);
+    padding: 10px 15px;
+}
+.theme-light .markdown-rendered td {
+    border: 1px solid rgba(108, 43, 142, 0.2);
+    padding: 8px 15px;
+}
+.theme-light .markdown-rendered tr:nth-child(even) td {
+    background-color: rgba(108, 43, 142, 0.04);
+}
+
+/* ==========================================
+   MODO OSCURO (.theme-dark)
+========================================== */
+.theme-dark {
+    --background-primary: #1B1026; 
+    --background-secondary: #221330; 
+    --background-modifier-form-field: #221330; 
+    --background-primary-alt: #13091B; 
+    --background-secondary-alt: #2D1A3D;
+    --background-modifier-border: #422557;
+    
+    --icon-color: #CBAFDA;
+    --icon-color-hover: #FFBBEA;
+    --icon-color-active: #FF42A1;
+    --nav-item-color: #E4D8F0;
+    --nav-item-color-hover: #FFBBEA;
+    --nav-item-color-active: #FFFFFF;
+    --nav-item-background-hover: rgba(255, 66, 161, 0.15);
+    --nav-item-background-active: rgba(255, 66, 161, 0.25);
+    --nav-folder-title-color: #E4D8F0;
+    --tab-text-color: #CBAFDA;
+    --tab-text-color-focused: #FFBBEA;
+    --tab-text-color-focused-active: #FF42A1;
+    --interactive-normal: #381E4D;
+    --interactive-hover: #4A2866;
+    --interactive-accent: #FF42A1;
+    --interactive-accent-hover: #FF2A85;
+
+    --text-normal: #E4D8F0;
+    --text-muted: #B8A5CC;
+    --text-faint: #8B779A;
+    
+    --text-a: #FF42A1; 
+    --text-a-hover: #FF7ABC;
+    --bold-color: #FF42A1; 
+    --italic-color: #FF92D0; 
+    --text-highlight-bg: rgba(255, 66, 161, 0.3);
+    --text-accent: #FF42A1;
+
+    --h1-color: #FF1493; 
+    --h2-color: #FF2A85; 
+    --h3-color: #FF42A1; 
+    --h4-color: #FF52A3; 
+    --h5-color: #FF7ABC; 
+    --h6-color: #FFA2D4; 
+
+    --code-background: #120A1A;   
+    --code-normal: #E4D8F0;       
+    --code-string: #FFEA00;       
+    --code-keyword: #FF1493;      
+    --code-function: #8BE9FD;     
+    --code-comment: #8c78b5;      
+    --code-operator: #FF42A1;     
+    --code-property: #00FFFF;
+    --code-punctuation: #E9D2FF;
+    --code-value: #8BE9FD;
+
+    --checkbox-border-color: #FF42A1;       
+    --checkbox-border-color-hover: #FF7ABC; 
+    --checkbox-color: #FF42A1;              
+    --checkbox-marker-color: #1B1026;       
+    --checklist-done-color: #8B779A;        
+    --checklist-done-decoration: line-through;
+
+    --tag-background: rgba(255, 66, 161, 0.15);    
+    --tag-color: #FF7ABC;         
+    --tag-border-color: rgba(255, 66, 161, 0.3); 
+    --tag-border-width: 1px;
+    --tag-background-hover: rgba(255, 66, 161, 0.25);
+
+    --hr-color: rgba(255, 66, 161, 0.3);
+    --list-marker-color: #FF42A1;
+}
+
+.theme-dark .markdown-rendered strong, .theme-dark .cm-strong { color: var(--bold-color); font-weight: bold; text-shadow: 0 0 8px rgba(255, 121, 198, 0.2); }
+.theme-dark .markdown-rendered em, .theme-dark .cm-em { color: var(--italic-color); font-style: italic; }
+.theme-dark .markdown-rendered strong em, .theme-dark .cm-em.cm-strong { color: #FF42A1; font-weight: bold; font-style: italic; text-shadow: 0 0 10px rgba(255, 66, 161, 0.3); }
+.theme-dark .markdown-rendered a, .theme-dark .cm-hmd-internal-link { color: var(--text-a); font-style: italic; font-weight: bold; }
+
+.theme-dark .markdown-rendered mark, .theme-dark .cm-formatting-highlight, .theme-dark .cm-highlight { background-color: var(--text-highlight-bg); color: var(--text-normal); }
+.theme-dark .markdown-rendered :not(pre) > code, .theme-dark .cm-inline-code { background-color: rgba(255, 121, 198, 0.1); color: #FF92D0; border: 1px solid rgba(255, 121, 198, 0.2); border-radius: 4px; padding: 0.1em 0.3em; }
+.theme-dark .markdown-rendered pre { border: 1px solid rgba(255, 121, 198, 0.1); }
+.theme-dark .cm-header-1 { color: var(--h1-color); }
+.theme-dark .cm-header-2 { color: var(--h2-color); }
+.theme-dark .cm-header-3 { color: var(--h3-color); }
+.theme-dark .cm-header-4 { color: var(--h4-color); }
+.theme-dark .cm-header-5 { color: var(--h5-color); }
+.theme-dark .cm-header-6 { color: var(--h6-color); }
+.theme-dark .markdown-rendered hr { border-color: var(--hr-color); border-width: 2px; }
+
+.theme-dark .markdown-rendered table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    background-color: rgba(255, 121, 198, 0.05);
+    border: 1px solid rgba(255, 121, 198, 0.2);
+}
+.theme-dark .markdown-rendered th {
+    background-color: rgba(255, 121, 198, 0.15);
+    color: #FFF0F9;
+    font-weight: bold;
+    border: 1px solid rgba(255, 121, 198, 0.3);
+    padding: 10px 15px;
+}
+.theme-dark .markdown-rendered td {
+    border: 1px solid rgba(255, 121, 198, 0.2);
+    padding: 8px 15px;
+}
+.theme-dark .markdown-rendered tr:nth-child(even) td {
+    background-color: rgba(255, 121, 198, 0.08);
+}
+
+/* ==========================================
+   COMPONENTES AVANZADOS
+========================================== */
+.theme-dark .math, 
+.theme-dark .math-block, 
+.theme-dark .math-inline, 
+.theme-dark .mjx-container,
+.theme-dark .MathJax {
+    color: #FFCCE3;
+}
+
+.math-block > .mjx-container {
+    padding: 10px;
+    border-radius: var(--radius-m);
+    background-color: rgba(128, 128, 128, 0.05);
+}
+
+/* --- 1. BLOQUES DE CÓDIGO ESTILO IDE --- */
+.markdown-rendered pre {
+    position: relative;
+    padding-top: 35px;
+    border-radius: var(--radius-m);
+    margin: 15px 0;
+}
+.markdown-rendered pre::before {
+    content: "</> CODE"; 
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    font-family: var(--font-interface);
+    font-size: 0.85em;
+    padding: 0 15px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    border-top-left-radius: var(--radius-m);
+    border-top-right-radius: var(--radius-m);
+}
+.markdown-rendered pre[class*="language-python"]::before { content: "PYTHON"; }
+.markdown-rendered pre[class*="language-js"]::before, 
+.markdown-rendered pre[class*="language-javascript"]::before { content: "JAVASCRIPT"; }
+.markdown-rendered pre[class*="language-css"]::before { content: "CSS"; }
+.markdown-rendered pre[class*="language-html"]::before { content: "HTML"; }
+.markdown-rendered pre[class*="language-c"]::before,
+.markdown-rendered pre[class*="language-cpp"]::before { content: "C / C++"; }
+.markdown-rendered pre[class*="language-java"]::before { content: "JAVA"; }
+.markdown-rendered pre[class*="language-sql"]::before { content: "SQL"; }
+.markdown-rendered pre[class*="language-bash"]::before,
+.markdown-rendered pre[class*="language-sh"]::before { content: "BASH / TERMINAL"; }
+
+.theme-light .markdown-rendered pre {
+    background-color: var(--code-background); 
+    box-shadow: 0 4px 10px rgba(108, 43, 142, 0.08);
+}
+.theme-light .markdown-rendered pre::before {
+    background-color: rgba(108, 43, 142, 0.08);
+    border-bottom: 1px solid rgba(108, 43, 142, 0.15);
+    color: #4E186D;
+}
+.theme-dark .markdown-rendered pre {
+    background-color: var(--code-background); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.theme-dark .markdown-rendered pre::before {
+    background-color: rgba(255, 121, 198, 0.1);
+    border-bottom: 1px solid rgba(255, 121, 198, 0.2);
+    color: #FF92D0;
+}
+
+/* --- 2. CAJAS DE DEFINICIÓN Y TEOREMAS --- */
+.callout[data-callout="definition"],
+.callout[data-callout="theorem"] {
+    border-radius: var(--radius-m);
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: none;
+    border-left: 6px solid var(--callout-color);
+}
+.callout[data-callout="definition"] .callout-title,
+.callout[data-callout="theorem"] .callout-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: var(--h3-font);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+}
+.theme-light .callout[data-callout="definition"] {
+    --callout-color: #6C2B8E; 
+    background-color: rgba(108, 43, 142, 0.05);
+}
+.theme-light .callout[data-callout="theorem"] {
+    --callout-color: #4E186D; 
+    background-color: rgba(78, 24, 109, 0.05);
+}
+.theme-dark .callout[data-callout="definition"] {
+    --callout-color: #FF79C6; 
+    background-color: rgba(255, 121, 198, 0.1);
+}
+.theme-dark .callout[data-callout="theorem"] {
+    --callout-color: #FF42A1; 
+    background-color: rgba(255, 66, 161, 0.1);
+}
+
+/* --- 3. TARJETAS INTERACTIVAS (CARDS) --- */
+.card {
+    border-radius: var(--radius-l);
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.theme-light .card {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(108, 43, 142, 0.2);
+    box-shadow: 0 2px 8px rgba(108, 43, 142, 0.05);
+}
+.theme-light .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(108, 43, 142, 0.15);
+    border-color: #6C2B8E;
+    background-color: rgba(108, 43, 142, 0.02);
+}
+.theme-dark .card {
+    background-color: rgba(255, 121, 198, 0.05);
+    border: 1px solid rgba(255, 121, 198, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.theme-dark .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(255, 121, 198, 0.2);
+    border-color: #FF92D0;
+    background-color: rgba(255, 121, 198, 0.1);
+}
+
+/* --- 4. ESTILOS PARA CANVAS (PIZARRAS) --- */
+.canvas-node-content { font-family: var(--font-text); }
+.theme-light .canvas-node-container {
+    background-color: #FEF3F8; 
+    border: 2px solid rgba(108, 43, 142, 0.3);
+    border-radius: var(--radius-m);
+    box-shadow: 0 4px 10px rgba(108, 43, 142, 0.1);
+}
+.theme-light .canvas-node-container:hover,
+.theme-light .canvas-node.is-focused .canvas-node-container {
+    border-color: #6C2B8E;
+    box-shadow: 0 0 0 2px rgba(108, 43, 142, 0.3);
+}
+.theme-light .canvas-edge-path { stroke: #6C2B8E; }
+.theme-light .canvas-color-1, .theme-light .canvas-color-2, .theme-light .canvas-color-3 {
+    background-color: rgba(108, 43, 142, 0.05);
+    border-color: #4E186D;
+}
+.theme-dark .canvas-node-container {
+    background-color: #1C1226; 
+    border: 2px solid rgba(255, 121, 198, 0.3);
+    border-radius: var(--radius-m);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.theme-dark .canvas-node-container:hover,
+.theme-dark .canvas-node.is-focused .canvas-node-container {
+    border-color: #FF79C6;
+    box-shadow: 0 0 0 2px rgba(255, 121, 198, 0.3);
+}
+.theme-dark .canvas-edge-path { stroke: #FF79C6; }
+.theme-dark .canvas-color-1, .theme-dark .canvas-color-2, .theme-dark .canvas-color-3 {
+    background-color: rgba(255, 121, 198, 0.1);
+    border-color: #FF42A1;
+}
+
+/* --- 5. RESALTADO DE SINTAXIS DIRECTO (CodeMirror & Prism) --- */
+.theme-light .cm-keyword, .theme-light span.token.keyword, .theme-light .tok-keyword { color: var(--code-keyword); font-weight: bold; }
+.theme-light .cm-string, .theme-light span.token.string, .theme-light .tok-string { color: var(--code-string); }
+.theme-light .cm-comment, .theme-light span.token.comment, .theme-light .tok-comment { color: var(--code-comment); font-style: italic; }
+.theme-light .cm-variable, .theme-light .cm-variable-2, .theme-light .cm-variable-3, .theme-light span.token.variable, .theme-light span.token.property, .theme-light .cm-type, .theme-light .tok-variableName, .theme-light .tok-typeName { color: var(--code-property); }
+.theme-light .cm-def, .theme-light span.token.function, .theme-light .tok-function { color: var(--code-function); }
+
+/* Fondo y texto general del bloque de código */
+.theme-dark pre.language-java,
+.theme-dark pre.language-python,
+.theme-dark code[class*="language-"],
+.theme-dark .cm-embed-block pre {
+    background-color: var(--code-background);
+    color: var(--code-normal);
+}
+
+/* Selectores de tokens EXHAUSTIVOS (Reading View + Live Preview + CM6) */
+/* 1. KEYWORDS */
+.theme-dark .cm-keyword, .theme-dark .token.keyword, .theme-dark .tok-keyword, .theme-dark span.tok-keyword, .theme-dark .cm-statement, .theme-dark .cm-modifier { color: #ff599e; font-weight: bold; }
+/* 2. TYPES & CLASSES */
+.theme-dark .cm-type, .theme-dark .cm-className, .theme-dark .token.class-name, .theme-dark .token.builtin, .theme-dark .tok-typeName, .theme-dark .tok-className, .theme-dark span.tok-typeName, .theme-dark span.tok-className { color: #32c5f4; }
+/* 3. FUNCTIONS & METHODS */
+.theme-dark .cm-def, .theme-dark .cm-function, .theme-dark .token.function, .theme-dark .tok-function, .theme-dark .tok-method, .theme-dark span.tok-function, .theme-dark span.tok-method { color: #a865f8; }
+/* 4. STRINGS */
+.theme-dark .cm-string, .theme-dark .cm-string-2, .theme-dark .token.string, .theme-dark .tok-string, .theme-dark .tok-string2, .theme-dark span.tok-string, .theme-dark span.tok-string2 { color: #f9f871; }
+/* 5. COMMENTS */
+.theme-dark .cm-comment, .theme-dark .token.comment, .theme-dark .tok-comment, .theme-dark span.tok-comment { color: #8c78b5; font-style: italic; }
+/* 6. NUMBERS */
+.theme-dark .cm-number, .theme-dark .token.number, .theme-dark .tok-number, .theme-dark span.tok-number { color: #559cf9; }
+/* 7. VARIABLES & PROPERTIES */
+.theme-dark .cm-variable, .theme-dark .cm-variable-2, .theme-dark .cm-variable-3, .theme-dark .cm-property, .theme-dark .token.variable, .theme-dark .token.property, .theme-dark .tok-variableName, .theme-dark .tok-propertyName, .theme-dark span.tok-variableName, .theme-dark span.tok-propertyName { color: #ff99c8; }
+/* 8. OPERATORS */
+.theme-dark .cm-operator, .theme-dark .token.operator, .theme-dark .tok-operator, .theme-dark span.tok-operator { color: #ff599e; }
+/* 9. PUNCTUATION */
+.theme-dark .cm-punctuation, .theme-dark .token.punctuation, .theme-dark .tok-punctuation, .theme-dark span.tok-punctuation { color: #f8f4ff; }
+
+/* ==========================================
+   FORZADO ABSOLUTO CONTRA EL BLANCO (MODO OSCURO)
+========================================== */
+.theme-dark .nav-files-container *,
+.theme-dark .workspace-ribbon *,
+.theme-dark .workspace-tab-header * {
+    color: #d4b2e2;
+}
+
+/* Iconos de la interfaz (fuerza trazo y color) */
+.theme-dark .nav-files-container svg,
+.theme-dark .workspace-ribbon svg,
+.theme-dark .workspace-tab-header svg,
+.theme-dark .clickable-icon,
+.theme-dark .clickable-icon svg {
+    color: #d4b2e2;
+    stroke: currentColor;
+}
+
+/* Pestañas activas: Resalta en tono rosa */
+.theme-dark .workspace-tab-header.is-active *,
+.theme-dark .workspace-tab-header.is-active svg {
+    color: #ff99c8;
+}
+
