@@ -8,115 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "180a259542ab6e20",
+            "id": "9bdfb58624a16fdc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD Ver/Embedded 2026 FISA (1).md",
+                "file": "Development/Phase 1 Relay Switching/Paralle and series .excalidraw.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Embedded 2026 FISA (1)"
+              "title": "Paralle and series .excalidraw"
             }
           },
           {
-            "id": "de119b119ea1289d",
+            "id": "3ef2a16abd1b5b49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Phase 4 IR Remote Input/What to build in Tinker cad.md",
+                "file": "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_2_Dev_Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What to build in Tinker cad"
-            }
-          },
-          {
-            "id": "21503c7b0f06204b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/Phase 1 Relay Switching/What to build in Tinkercad.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "What to build in Tinkercad"
-            }
-          },
-          {
-            "id": "6a25a81fb657af41",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Development/Phase 1 Relay Switching/Drawing 2026-08-15 22.45.09.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-15 22.45.09.excalidraw"
-            }
-          },
-          {
-            "id": "5758b260e9d0f00c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Development/Phase 1 Relay Switching/Relay explanation drawing.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Relay explanation drawing"
-            }
-          },
-          {
-            "id": "e593157a9d6fc5e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/Phase 1 Relay Switching/Drawing 2026-08-15 22.45.09.excalidraw.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Drawing 2026-08-15 22.45.09.excalidraw"
-            }
-          },
-          {
-            "id": "502922e04712bd02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/Phase 2 Voltage sensing/Phase2_Dev_notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phase2_Dev_notes"
-            }
-          },
-          {
-            "id": "c06e0271d6334ef2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "().md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "()"
+              "title": "Phase3_2_Dev_Notes"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,6 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_2_Dev_Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -261,13 +182,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "336ee4a7d959b9b1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw-sidepanel",
+              "state": {},
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -281,37 +212,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "502922e04712bd02",
+  "active": "3ef2a16abd1b5b49",
   "lastOpenFiles": [
-    "Development/Phase 1 Relay Switching/Drawing 2026-08-15 22.45.09.excalidraw.md",
-    "Development/Phase 1 Relay Switching/Paralle and series .excalidraw.md",
-    "Development/Phase 4 IR Remote Input/What to build in Tinker cad.md",
-    "Development/Phase 1 Relay Switching/Relay explanation drawing.md",
-    "Excalidraw/Drawing 2026-09-03 22.37.28.excalidraw.md",
-    "Excalidraw",
-    "Development/Phase 1 Relay Switching/Phase1_Dev_Notes.md",
-    "Development/Phase 1 Relay Switching/Relay Test.md",
-    "Development/Phase 2 Voltage sensing/Phase2_Dev_notes.md",
-    "Development/Phase 2 Voltage sensing/Unconfirmed 491714.crdownload",
+    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_1_Dev_Notes.md",
+    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_2_Dev_Notes.md",
     "Development/Phase 5 Output Voltage Regulation/What to build in Tinkercad.md",
-    "Development/Phase 2 Voltage sensing/What to build in Tinker cad.md",
+    "Development/Phase 4 IR Remote Input/What to build in Tinker cad.md",
     "Development/Phase 6 Full System Integration/What to build in Tinkercad.md",
-    "().md",
-    "Development/Phase 1 Relay Switching/What to build in Tinkercad.md",
-    "Development/Phase 1 Relay Switching/Development.md",
-    "Development/Phase 1 Relay Switching/Unconfirmed 861091.crdownload",
     "Development/Phase 3 Merge Phase 1 and Phase 2/What to build in Tinker cad.md",
-    "Development/Phase 1 Relay Switching/Untitled.md",
-    "Notes/DIAGRAM OVERVIEW.md",
-    "DOCS/2026 Embedded Systems 3 FISA template V002.docx",
-    "MD Ver/convert-to-markdown.bat",
+    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_Report_Notes.md",
+    "Development/Phase 1 Relay Switching/Paralle and series .excalidraw.md",
+    "Development/Phase 3 Merge Phase 1 and Phase 2/Unconfirmed 601785.crdownload",
+    "Development/Phase 3 Merge Phase 1 and Phase 2/Unconfirmed 395739.crdownload",
+    "Development/Phase 2 Voltage sensing/Report writing.md",
+    "Excalidraw/Drawing 2026-09-05 04.35.31.excalidraw.md",
+    "Development/Phase 1 Relay Switching/Relay explanation drawing.md",
+    "Development/Phase 1 Relay Switching/Relay Test.md",
+    "Development/Phase 1 Relay Switching/Phase1_Dev_Notes.md",
+    "Development/Phase 1 Relay Switching/Drawing 2026-08-15 22.45.09.excalidraw.md",
+    "Development/Phase 1 Relay Switching/What to build in Tinkercad.md",
+    "Development/Phase 2 Voltage sensing/Phase2_Dev_notes.md",
+    "MD Ver/GA1_Project_Template_Tshiwaya_222170972.pdf",
     "DOCS/2026 Embedded Systems 3 FISA template V002.pdf",
     "DOCS/Embedded 2026 FISA (1).pdf",
-    "DOCS",
-    "New folder",
-    "Development/Phase 6 Full System Integration",
-    "Notes/Prompt.md",
-    "MD Ver/Embedded 2026 FISA (1).md",
-    "MD Ver/2026 Embedded Systems 3 FISA template V002.md"
+    "Excalidraw/Drawing 2026-09-04 23.11.51.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/artem-s-icons.excalidrawlib",
+    "Excalidraw/Scripts/Downloaded/Comic Strip Director.svg",
+    "Excalidraw/Scripts/Downloaded/Comic Strip Director.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw/artem-s-icons.excalidrawlib",
+    "Excalidraw/Unconfirmed 898584.crdownload",
+    "Excalidraw/Drawing 2026-09-03 22.53.29.excalidraw.md",
+    "Excalidraw/Drawing 2026-09-03 22.37.28.excalidraw.md",
+    "Development/Phase 2 Voltage sensing/What to build in Tinker cad.md",
+    "().md",
+    "Development/Phase 1 Relay Switching/Development.md",
+    "Development/Phase 1 Relay Switching/Untitled.md",
+    "Notes/DIAGRAM OVERVIEW.md",
+    "Notes/Prompt.md"
   ]
 }

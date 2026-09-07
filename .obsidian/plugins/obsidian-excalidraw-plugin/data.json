@@ -159,7 +159,11 @@
       }
     }
   },
-  "scriptEngineSettings": {},
+  "scriptEngineSettings": {
+    "Downloaded/Comic Strip Director": {
+      "lastLayout": "g-3row"
+    }
+  },
   "previousRelease": "2.26.4",
   "showReleaseNotes": true,
   "excalidrawMasteryPromoCollapsed": false,

@@ -140,17 +140,17 @@ capacitor voltages swing between ~10V (series, evenly split) and ~20V
 
 ## Why Each Component Was Used
 
-| Component | Reason for Use |
-|---|---|
-| **Arduino Uno** | Only microcontroller in the spec; generates the control signal on pin 12 and will later handle sensing, LCD, and IR |
-| **DPDT relay** | An SPDT relay can only make one switched connection, but true series↔parallel reconfiguration of two capacitors requires two connections to change at once (C1− and C2+). A DPDT relay's two poles, sharing one coil, do both simultaneously and reliably |
-| **NPN transistor** | The relay coil draws more current than an Arduino GPIO pin can safely source; the transistor acts as a low-side switch so the Arduino only has to supply a small base current |
-| **1kΩ base resistor** | Limits the current into the transistor's base, protecting both the transistor and the Arduino pin — one of the two required protection components |
-| **Diode (flyback)** | Placed across the coil to absorb the voltage spike generated when the coil de-energizes, protecting the transistor from inductive kickback — the second required protection component |
-| **Two 1000µF capacitors** | Act as the battery substitute; large capacitance chosen to store meaningful charge and give measurable, stable voltages during series/parallel testing |
-| **Solar cell (20V)** | Explicitly required by the spec as the charging source; represents the real solar panel that would charge the batteries (now capacitors) |
-| **Voltmeters (×3)** | Required to verify the switching actually changes the topology: two confirm individual capacitor voltages, one confirms total pack voltage stays consistent regardless of mode |
-| **LED + resistor** | Gives a quick visual/serial confirmation of relay state during testing, without needing to open the code every time |
+| Component                 | Reason for Use                                                                                                                                                                                                                                            |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Arduino Uno**           | Only microcontroller in the spec; generates the control signal on pin 12 and will later handle sensing, LCD, and IR                                                                                                                                       |
+| **DPDT relay**            | An SPDT relay can only make one switched connection, but true series↔parallel reconfiguration of two capacitors requires two connections to change at once (C1− and C2+). A DPDT relay's two poles, sharing one coil, do both simultaneously and reliably |
+| **NPN transistor**        | The relay coil draws more current than an Arduino GPIO pin can safely source; the transistor acts as a low-side switch so the Arduino only has to supply a small base current                                                                             |
+| **1kΩ base resistor**     | Limits the current into the transistor's base, protecting both the transistor and the Arduino pin — one of the two required protection components                                                                                                         |
+| **Diode (flyback)**       | Placed across the coil to absorb the voltage spike generated when the coil de-energizes, protecting the transistor from inductive kickback — the second required protection component                                                                     |
+| **Two 1000µF capacitors** | Act as the battery substitute; large capacitance chosen to store meaningful charge and give measurable, stable voltages during series/parallel testing                                                                                                    |
+| **Solar cell (20V)**      | Explicitly required by the spec as the charging source; represents the real solar panel that would charge the batteries (now capacitors)                                                                                                                  |
+| **Voltmeters (×3)**       | Required to verify the switching actually changes the topology: two confirm individual capacitor voltages, one confirms total pack voltage stays consistent regardless of mode                                                                            |
+| **LED + resistor**        | Gives a quick visual/serial confirmation of relay state during testing, without needing to open the code every time                                                                                                                                       |
 
 ---
 
