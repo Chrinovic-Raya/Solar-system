@@ -1,38 +1,38 @@
 {
   "main": {
-    "id": "e7f5eabbd990263b",
+    "id": "2a0078bf6f2c7380",
     "type": "split",
     "children": [
       {
-        "id": "7926a8afb26cbc25",
+        "id": "2313081f648c234f",
         "type": "tabs",
         "children": [
           {
-            "id": "9bdfb58624a16fdc",
+            "id": "2b242677d22e1282",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Phase 1 Relay Switching/Paralle and series .excalidraw.md",
+                "file": "Development/Phase 4 IR Remote Input/Phase 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paralle and series .excalidraw"
+              "title": "Phase 4"
             }
           },
           {
-            "id": "3ef2a16abd1b5b49",
+            "id": "7f407fc127bc1c88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_2_Dev_Notes.md",
+                "file": "().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phase3_2_Dev_Notes"
+              "title": "()"
             }
           }
         ],
@@ -42,15 +42,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8f1707a1f3c57254",
+    "id": "ac3cdc2fd1a6910d",
     "type": "split",
     "children": [
       {
-        "id": "3c94e57b16c38211",
+        "id": "9b69f4637104afc1",
         "type": "tabs",
         "children": [
           {
-            "id": "7e4eb80c84006800",
+            "id": "3812ba53758a3d2d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "4511c501b2da8c29",
+            "id": "63e1f619bdd43595",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -82,7 +82,7 @@
             }
           },
           {
-            "id": "dee52bf3803c7a01",
+            "id": "ab107b0ad493b509",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -101,19 +101,20 @@
     "width": 300
   },
   "right": {
-    "id": "c977d7b881ad19da",
+    "id": "b6a5b52e425e3e07",
     "type": "split",
     "children": [
       {
-        "id": "580ce27dae9af664",
+        "id": "d09765be6d0efa4b",
         "type": "tabs",
         "children": [
           {
-            "id": "58c4a0db22c4b77e",
+            "id": "0d03adc03a91d75f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Development/Phase 4 IR Remote Input/Phase 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,11 +128,12 @@
             }
           },
           {
-            "id": "ec1d6a2c5cf0d27c",
+            "id": "9a066563266f447c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Development/Phase 4 IR Remote Input/Phase 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -140,7 +142,7 @@
             }
           },
           {
-            "id": "49fba59e6ce95607",
+            "id": "f989a54975d704c5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -155,7 +157,7 @@
             }
           },
           {
-            "id": "9a7c836ad50a9b16",
+            "id": "92c692d3488e5d2e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -169,12 +171,12 @@
             }
           },
           {
-            "id": "cf2e261fa6746709",
+            "id": "0bbffcc2b7c34d21",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_2_Dev_Notes.md",
+                "file": "Development/Phase 4 IR Remote Input/Phase 4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,23 +184,13 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "336ee4a7d959b9b1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw-sidepanel",
-              "state": {},
-              "icon": "excalidraw-icon",
-              "title": "Excalidraw Sidepanel"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,43 +204,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3ef2a16abd1b5b49",
+  "active": "7f407fc127bc1c88",
   "lastOpenFiles": [
-    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_1_Dev_Notes.md",
-    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_2_Dev_Notes.md",
-    "Development/Phase 5 Output Voltage Regulation/What to build in Tinkercad.md",
-    "Development/Phase 4 IR Remote Input/What to build in Tinker cad.md",
-    "Development/Phase 6 Full System Integration/What to build in Tinkercad.md",
-    "Development/Phase 3 Merge Phase 1 and Phase 2/What to build in Tinker cad.md",
-    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_Report_Notes.md",
-    "Development/Phase 1 Relay Switching/Paralle and series .excalidraw.md",
-    "Development/Phase 3 Merge Phase 1 and Phase 2/Unconfirmed 601785.crdownload",
-    "Development/Phase 3 Merge Phase 1 and Phase 2/Unconfirmed 395739.crdownload",
-    "Development/Phase 2 Voltage sensing/Report writing.md",
-    "Excalidraw/Drawing 2026-09-05 04.35.31.excalidraw.md",
-    "Development/Phase 1 Relay Switching/Relay explanation drawing.md",
-    "Development/Phase 1 Relay Switching/Relay Test.md",
-    "Development/Phase 1 Relay Switching/Phase1_Dev_Notes.md",
-    "Development/Phase 1 Relay Switching/Drawing 2026-08-15 22.45.09.excalidraw.md",
-    "Development/Phase 1 Relay Switching/What to build in Tinkercad.md",
-    "Development/Phase 2 Voltage sensing/Phase2_Dev_notes.md",
-    "MD Ver/GA1_Project_Template_Tshiwaya_222170972.pdf",
-    "DOCS/2026 Embedded Systems 3 FISA template V002.pdf",
-    "DOCS/Embedded 2026 FISA (1).pdf",
-    "Excalidraw/Drawing 2026-09-04 23.11.51.excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/artem-s-icons.excalidrawlib",
-    "Excalidraw/Scripts/Downloaded/Comic Strip Director.svg",
-    "Excalidraw/Scripts/Downloaded/Comic Strip Director.md",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw/artem-s-icons.excalidrawlib",
-    "Excalidraw/Unconfirmed 898584.crdownload",
-    "Excalidraw/Drawing 2026-09-03 22.53.29.excalidraw.md",
-    "Excalidraw/Drawing 2026-09-03 22.37.28.excalidraw.md",
-    "Development/Phase 2 Voltage sensing/What to build in Tinker cad.md",
-    "().md",
-    "Development/Phase 1 Relay Switching/Development.md",
-    "Development/Phase 1 Relay Switching/Untitled.md",
+    "Development/Phase 2 Voltage sensing/Phase 2.md",
+    "full.md",
     "Notes/DIAGRAM OVERVIEW.md",
     "Notes/Prompt.md"
   ]

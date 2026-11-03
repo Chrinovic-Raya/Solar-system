@@ -1,4 +1,5 @@
 {
   "cssTheme": "Pink Violet Dream",
-  "accentColor": "#3a3131"
+  "accentColor": "#3a3131",
+  "baseFontSizeAction": true
 }
