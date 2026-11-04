@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "().md",
+                "file": "full.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "()"
+              "title": "full"
             }
           }
         ],
@@ -206,6 +206,7 @@
   },
   "active": "7f407fc127bc1c88",
   "lastOpenFiles": [
+    "().md",
     "Development/Phase 2 Voltage sensing/Phase 2.md",
     "full.md",
     "Notes/DIAGRAM OVERVIEW.md",
