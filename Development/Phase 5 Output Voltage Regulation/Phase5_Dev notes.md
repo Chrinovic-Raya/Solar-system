@@ -7,6 +7,8 @@ tags:
   - arduino
 date: 2026-11-04
 status: Verified
+circuit_url phase5.1: https://www.tinkercad.com/things/7W2rAQda04r-phase-5
+circuit_url phase 5.2: https://www.tinkercad.com/things/2CtUW9fqnnD-phase-52
 ---
 
 # Stage 5 Development Notes: NPN Voltage Regulation & Closed-Loop Control

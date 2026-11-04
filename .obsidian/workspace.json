@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Phase 5 Output Voltage Regulation/Phase 5.md",
+                "file": "Development/Phase 6 Full System Integration/What to build in Tinkercad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phase 5"
+              "title": "What to build in Tinkercad"
+            }
+          },
+          {
+            "id": "1651049b0f289e4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/Phase 6 Full System Integration/What to build in Tinkercad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What to build in Tinkercad"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,28 +218,33 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7f407fc127bc1c88",
+  "active": "1651049b0f289e4e",
   "lastOpenFiles": [
+    "Development/Phase 6 Full System Integration/Untitled.md",
+    "Development/Phase 6 Full System Integration/What to build in Tinkercad.md",
+    "Untitled.md",
+    "Development/Phase 6 Full System Integration/Code.md",
+    "Development/Phase 5 Output Voltage Regulation/Phase5_Dev notes.md",
+    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_Report_Notes.md",
+    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_2_Dev_Notes.md",
+    "Development/Phase 4 IR Remote Input/Phase4_Dev notes.md",
+    "Development/Phase 4 IR Remote Input/Phase4_code.md",
+    "Development/Phase 6 Full System Integration/FINLA CODE.md",
     "Development/Phase 5 Output Voltage Regulation/What to build in Tinkercad.md",
     "Development/Phase 5 Output Voltage Regulation/Untitled.md",
     "Development/Phase 5 Output Voltage Regulation/Untitled 1.md",
-    "Development/Phase 5 Output Voltage Regulation/Phase 5.md",
-    "Development/Phase 4 IR Remote Input/Phase4_code.md",
     "Development/Phase 1 Relay Switching/Relay explanation drawing.md",
     "Development/Phase 1 Relay Switching/Paralle and series .excalidraw.md",
     "Development/Phase 1 Relay Switching/Phase1_Dev_Notes.md",
     "Development/Phase 1 Relay Switching/Relay Test.md",
     "Development/Phase 1 Relay Switching/Phase 1.md",
     "Development/Phase 1 Relay Switching/What to build in Tinkercad.md",
-    "Development/Phase 4 IR Remote Input/Phase4_Dev notes.md",
     "Development/Phase 2 Voltage sensing/What to build in Tinker cad.md",
     "Development/Phase 3 Merge Phase 1 and Phase 2/What to build in Tinker cad.md",
     "Development/Phase 4 IR Remote Input/PhASE 4What to build in Tinker cad.md",
-    "Development/Phase 3 Merge Phase 1 and Phase 2/Phase3_Report_Notes.md",
     "full.md",
     "().md",
     "Development/Phase 2 Voltage sensing/Phase 2.md",
-    "Notes/DIAGRAM OVERVIEW.md",
-    "Notes/Prompt.md"
+    "Notes/DIAGRAM OVERVIEW.md"
   ]
 }
